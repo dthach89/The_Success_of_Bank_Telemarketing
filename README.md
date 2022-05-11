@@ -1,4 +1,4 @@
-# Future Criminal Prediction
+# The Success of Bank Telemarketing
 ## First Segment
 ### Overview
 In the first segment, you'll work with your project team and begin assigning roles and tasks. You'll also choose the type of data you'll work with. There are many different avenues for this, so remember not to get too bogged down in making this decision.
@@ -29,10 +29,14 @@ By the end of this module, you will have created the foundation for your final p
 	- Discord
 	- Github	
 #### Topic and Description
-	- We picked "Future Criminal Prediction" as our topic
-	- Using machine learning, we hope to find out the way to predict what kind of criminal a person can be based on the existing current criminal information
+	- We picked "The Success of Bank Telemarketing" as our topic
+	- This dataset could be used to predict the success of a marketing campaign, to identify which customers are most likely to respond positively to a marketing campaign, or to determine which marketing strategies are most effective.
 #### Data Source
-	- SRS Crime Data Endpoint
+	- https://www.kaggle.com/datasets/satoshidatamoto/the-success-of-bank-telemarketinge?select=bank-additional-full.csv
+	- The data set contains information on direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. In order to assess whether or not the product (bank term deposit) would be subscribed, often more than one contact to the same client was required.
+	  There are four datasets in total: bank-additional-full.csv (41188 examples with 20 inputs), bank-additional.csv (10% of the examples with 20 inputs), bank-full.csv (all examples with 17 inputs), and bank.csv (10% of the examples with 17 inputs). The classification goal is to predict if a client will subscribe (yes/no) to a term deposit, based on the input variables available.
+	  Attribute Information: Input variables include age, job type, marital status, education, credit in default?, housing loan?, personal loan?, last contact communication type, last contact month of year, last contact day of week, last contact duration in seconds, number of contacts performed during this campaign and for this client, number of days that passed by after the client was last contacted from a previous campaign, number of contacts performed before this campaign and for this client , outcome of the previous marketing campaign , employment variation rate - quarterly indicator , consumer price index - monthly indicator , consumer confidence index - monthly indicator , euribor 3 month rate - daily indicator , and number of employees - quarterly indicator
+	- This dataset is perfect for those who want to predict the success of bank telemarketing campaigns. The data includes information on the age, job, marital status, education, default status, balance, housing status, loan status, contact information, day of week contacted, month contacted, duration of last contact, number of contacts during campaign, number of days since last previous contact outcome and success outcome (yes/no) of each client. With all of this data available to you , you can create a model that accurately predicts whether or not a potential client will subscribe to a term deposit.
 #### Machine Learning Model
 
 #### Database Integration

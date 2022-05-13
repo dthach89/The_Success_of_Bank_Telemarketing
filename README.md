@@ -1,2 +1,3 @@
-# FBI_Most_Wanted_Analysis
-Using multiple tools to analyze the FBI most wanted list
+# The Success of Bank Telemarketing
+
+Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row. 

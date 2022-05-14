@@ -44,3 +44,4 @@ By the end of this module, you will have created the foundation for your final p
 #### Database Integration
 - Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row.
 #### Dashboard  	
+- Dashboard to see if user would participate in telemarketing campaign.

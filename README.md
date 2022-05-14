@@ -1,14 +1,14 @@
 # The Success of Bank Telemarketing
 ## First Segment
 ### Overview
-In the first segment, you'll work with your project team and begin assigning roles and tasks. You'll also choose the type of data you'll work with. There are many different avenues for this, so remember not to get too bogged down in making this decision.
+In the first segment, the project team is begin assigning roles, tasks, and choosing the type of data to work with.
 ### Purpose
-By the end of this module, you will have created the foundation for your final project. By defining roles between your team members and establishing a communication structure beforehand, you'll already be off to a great start. Additionally, you'll complete the following tasks:
-	- Decide on a topic for the project—think of a question that can be answered using data.
- 	- Create a repository for the project and invite the other team members to join.
- 	- Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
- 	- Begin to clean, organize, and perform exploratory data analysis on your datasets so that they're ready for analysis.
- 	- Include mockups of a machine learning model and a database.
+By the end of the first segment, there is a foundation for the final project. By defining roles between team members and establishing a communication structure beforehand. Additionally, completing the following tasks:
+- Decide on a topic for the project—think of a question that can be answered using data.
+- Create a repository for the project and invite the other team members to join.
+- Source a dataset that will suit the needs (use multiple datasets if applicable).
+- Begin to clean, organize, and perform exploratory data analysis on the datasets so that they're ready for analysis.
+- Include mockups of a machine learning model and a database.
 ### Result
 #### Roles
 1. Square (Duc Thach)  

@@ -43,5 +43,7 @@ By the end of the first segment, there is a foundation for the final project. By
 - We are using a binary classification model to predict the outcome of the bank telemarketing campaign. We will look at multiple different models to evaluate what model gives us the most accuracy as well as a realistic running time. The data will be cleaned using a OneHotEncoder method so that we have entirely numerical data to work with.
 #### Database Integration
 - Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row.
+- ![bank_data](https://user-images.githubusercontent.com/33468680/168457359-474c0293-808a-43bf-9d58-b335803c6794.png)
+
 #### Dashboard  	
 - Dashboard to see if user would participate in telemarketing campaign.

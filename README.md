@@ -1,43 +1,25 @@
 # The Success of Bank Telemarketing
-## First Segment
+## Second Segment
 ### Overview
-In the first segment, you'll work with your project team and begin assigning roles and tasks. You'll also choose the type of data you'll work with. There are many different avenues for this, so remember not to get too bogged down in making this decision.
+In this segment, building the separate pieces that will make the project great—and also start putting them together! Selecting data and started exploring it for analysis. Also, prepareing a mockup of a machine learning model and fabricated a database in anticipation of the next step. This is an exciting segment because starting to really see how the works are going to come together.
 ### Purpose
-By the end of this module, you will have created the foundation for your final project. By defining roles between your team members and establishing a communication structure beforehand, you'll already be off to a great start. Additionally, you'll complete the following tasks:
-	- Decide on a topic for the project—think of a question that can be answered using data.
- 	- Create a repository for the project and invite the other team members to join.
- 	- Source a dataset that will suit your needs (you can even use multiple datasets if applicable).
- 	- Begin to clean, organize, and perform exploratory data analysis on your datasets so that they're ready for analysis.
- 	- Include mockups of a machine learning model and a database.
+By the end of this segment, there are great strides in building the different pieces of the project. The analysis is coming along nicely, work on the machine learning model has commenced, and the database will be transitioned into an operational, data-holding tool.
 ### Result
-#### Roles
-1. Square (Duc Thach)  
-	- Created a main repository that include README.md
-	- Maintain the github repository
-2. Triangle (Michael Dicky)
-	- Work on machine learning role
-	- Updating/maintain machine learning branch
-3. Circle (Almir Omerdic)
-	- Work on database role
-	- Updating/maitain database branch
-4. X (Paul Erickson)
-	- Work on Dashboard role
-	- Updating/maintain dashboard branch 
-#### Communication
-- Slack
-- Discord
-- Github	
-#### Topic and Description
-- We picked "The Success of Bank Telemarketing" as our topic
-- This dataset could be used to predict the success of a marketing campaign, to identify which customers are most likely to respond positively to a marketing campaign, or to determine which marketing strategies are most effective.
-#### Data Source
-- https://www.kaggle.com/datasets/satoshidatamoto/the-success-of-bank-telemarketinge?select=bank-additional-full.csv
-- The data set contains information on direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. In order to assess whether or not the product (bank term deposit) would be subscribed, often more than one contact to the same client was required.  
-- There are four datasets in total: bank-additional-full.csv (41188 examples with 20 inputs), bank-additional.csv (10% of the examples with 20 inputs), bank-full.csv (all examples with 17 inputs), and bank.csv (10% of the examples with 17 inputs). The classification goal is to predict if a client will subscribe (yes/no) to a term deposit, based on the input variables available.  
-- Attribute Information: Input variables include age, job type, marital status, education, credit in default?, housing loan?, personal loan?, last contact communication type, last contact month of year, last contact day of week, last contact duration in seconds, number of contacts performed during this campaign and for this client, number of days that passed by after the client was last contacted from a previous campaign, number of contacts performed before this campaign and for this client , outcome of the previous marketing campaign , employment variation rate - quarterly indicator , consumer price index - monthly indicator , consumer confidence index - monthly indicator , euribor 3 month rate - daily indicator , and number of employees - quarterly indicator
-- This dataset is perfect for those who want to predict the success of bank telemarketing campaigns. The data includes information on the age, job, marital status, education, default status, balance, housing status, loan status, contact information, day of week contacted, month contacted, duration of last contact, number of contacts during campaign, number of days since last previous contact outcome and success outcome (yes/no) of each client. With all of this data available to you , you can create a model that accurately predicts whether or not a potential client will subscribe to a term deposit.
-#### Machine Learning Model
+#### Communication Protocols
+- Database
+	- A database is created with PgAdmin4
+	- creating tables to populate the data with scv files
+	- creating account with AWS
+	- Connecting PdAdmin4 with AWS
+	- Using RDS on AWS to upload and retrieve datas
+- Machine Learning
+	- Pulling the data from AWS that connected to PgAdmin
+	- Perform the algorithm to predict the outcomes 
+- Dashboard
+	- Pulling the data from AWS to make visulization
+	- Using outcomes from machine learning to make graphs for better displays 	
+#### Project Outlines
+- 
 
-#### Database Integration
 
-#### Dashboard  	
+

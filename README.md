@@ -19,7 +19,29 @@ By the end of this segment, there are great strides in building the different pi
 	- Pulling the data from AWS to make visulization
 	- Using outcomes from machine learning to make graphs for better displays 	
 #### Project Outlines
-- 
+##### Database
+- Database Schema 
+- PgAdmin4
+	- Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row.
+	- We started by creating bank_data table. With this table created we can start to load the csv file into the table.
+		- ![ban_data_table](https://user-images.githubusercontent.com/33468680/170159274-85ed5819-77e5-41b6-bf5f-e0f3b4240004.png) 
+	- We then created two more tables first being customer personal information and the second being the loan information and the bank account balances.  
+		- ![customer_info_table](https://user-images.githubusercontent.com/33468680/170159407-66e01606-938b-4f03-a7b5-3e26d0cb8a0e.png)  
+		- ![customer_loan](https://user-images.githubusercontent.com/33468680/170159451-5113aaf4-6621-460d-ba5d-cca40654095e.png)  
+	- Next we devicded to split the data into 3 different csv files and sorted them by each year that the data was collected.  
+		- ![bank_data_08](https://user-images.githubusercontent.com/33468680/170159620-212f63d4-9780-4159-a165-c9bff2a914a6.png)
+		- ![bank_data_09](https://user-images.githubusercontent.com/33468680/170159671-691f5464-1754-43a2-ba73-370b85853a5c.png)
+		- ![bank_data_10](https://user-images.githubusercontent.com/33468680/170159703-209cd840-b011-4ad5-9744-4148ba6ce201.png)
+- AWS
+	- Created an account on AWS
+	- Created a database on RDS
+	- Connected RDS on AWS to PgAdmin4
+	- Gave permision to other to access database
+##### Machine Learning
+
+
+
+
 
 
 

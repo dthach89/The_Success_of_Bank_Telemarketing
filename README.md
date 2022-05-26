@@ -38,7 +38,7 @@ By the end of this segment, there are great strides in building the different pi
 	- Connected RDS on AWS to PgAdmin4
 	- Gave permision to other to access database
 ##### Machine Learning
-- Machine Learning Model
+- Machine Learning Model   
 We are using a binary classification model to predict the outcome of the bank telemarketing campaign. We will look at multiple different models to evaluate what model gives us the most accuracy as well as a realistic running time. The data will be cleaned using a OneHotEncoder method so that we have entirely numerical data to work with.
 - Description of preliminary data preprocessing
 	- For the machine learning section we performed the data preprocessing in steps as follows:
@@ -62,12 +62,16 @@ For our model we wanted the highest precision possible over a high recall. Given
 	- Benefits: No feature scaling required.Random Forest works well with both categorical and continuous variables which our data has.
 	- Limitations: Random forests can be complex and harder to understand. Random Forest require much more time to train as compared to decision trees
 ##### Dashboard
-- Web Connector
-	- Using web connector to pull the data
-	- Connecting data to Tableau
-- Tableau
-	- Create storylines
-	- Using Tableau to display the analysis
-	- Showing important features 
-	- Showing results from machine learning
+- Tableau storyboard
+- Tools
+	- Web Connector
+		- Using web connector to pull the data
+		- Connecting data to Tableau
+	- Tableau
+		- Create storylines
+		- Using Tableau to display the analysis
+		- Showing important features 
+		- Showing results from machine learning
+- Interactive elements
+	-  Dropdownn or select filter on Tableau
 

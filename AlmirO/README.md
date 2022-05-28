@@ -21,3 +21,15 @@ Next we devicded to split the data into 3 different csv files and sorted them by
 ![CODE1](Images/bank_data_09.png)
 
 ![CODE1](Images/bank_data_10.png)
+
+We created an ERD database to identify our primary key. And also give us an idea what would connect our databses for the inner join table. 
+
+![CODE1](Images/QuickDBD-export.png)
+
+Next we created a table called customer_data. This is where we did the inner join of the data that only pretains to the customer. 
+
+![CODE1](Images/inner_join_data.png)
+
+![CODE1](Images/inner_join_table.png)
+
+

@@ -75,7 +75,7 @@ To split the data into training and testing sets we used the built in train_test
 For our model we wanted the highest precision possible over a high recall. Given that there is a limited amount of time in a day we want the highest percent chance that the person we call will be a subscriber. The Random Forest Classifier gives us almost the best precision while still keeping recall, accuracy, and model run time at an adequate level.
 	- Benefits: No feature scaling required.Random Forest works well with both categorical and continuous variables which our data has.
 	- Limitations: Random forests can be complex and harder to understand. Random Forest require much more time to train as compared to decision trees
-- In the "Model.csv", there are confusion tables with results to use for comparing the differences to pick out the most fit model.
+- In the "Resources/Model.csv", there are confusion tables with results to use for comparing the differences to pick out the most fit model.
 ##### Dashboard
 - Tableau storyboard
 	- https://public.tableau.com/app/profile/paul.erickson/viz/Final_Project_Group_3/SuccessPie?publish=yes 
@@ -89,5 +89,5 @@ For our model we wanted the highest precision possible over a high recall. Given
 		- Showing important features 
 		- Showing results from machine learning
 - Interactive elements
-	-  Dropdownn or select filter on Tableau
+	-  Dropdown or select filters on Tableau
 

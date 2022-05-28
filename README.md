@@ -18,6 +18,9 @@ By the end of this segment, there are great strides in building the different pi
 - Dashboard
 	- Pulling the data from AWS to make visulization
 	- Displaying outcomes from machine learning and showing features on Tableau 	
+#### Presentation Outlines
+https://docs.google.com/presentation/d/1fCTdK4WLqB_CS2L9hynQPrdZWSWE_nL8I1XASwRxQaQ/edit?usp=sharing  
+
 #### Project Outlines
 ##### Database
 - Database Schema

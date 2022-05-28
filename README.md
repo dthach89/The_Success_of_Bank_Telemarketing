@@ -8,38 +8,49 @@ By the end of this segment, there are great strides in building the different pi
 #### Communication Protocols
 - Database
 	- A database is created with PgAdmin4
-	- creating tables to populate the data with scv files
+	- creating tables to populate the data with csv files
 	- creating account with AWS
-	- Connecting PdAdmin4 with AWS
+	- Connecting PdAdmin4 to AWS
 	- Using RDS on AWS to upload and retrieve datas
 - Machine Learning
-	- Pulling the data from AWS that connected to PgAdmin
+	- Pulling the data from RDS on AWS that connected to PgAdmin4
 	- Perform the algorithm to predict the outcomes 
 - Dashboard
 	- Pulling the data from AWS to make visulization
-	- Using outcomes from machine learning to make graphs for better displays 	
+	- Displaying outcomes from machine learning and showing features on Tableau 	
 #### Project Outlines
 ##### Database
-- Database Schema 
-- PgAdmin4
-	- Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row.
-	- We started by creating bank_data table. With this table created we can start to load the csv file into the table.
-		- ![ban_data_table](https://user-images.githubusercontent.com/33468680/170159274-85ed5819-77e5-41b6-bf5f-e0f3b4240004.png) 
-	- We then created two more tables first being customer personal information and the second being the loan information and the bank account balances.  
-		- ![customer_info_table](https://user-images.githubusercontent.com/33468680/170159407-66e01606-938b-4f03-a7b5-3e26d0cb8a0e.png)  
-		- ![customer_loan](https://user-images.githubusercontent.com/33468680/170159451-5113aaf4-6621-460d-ba5d-cca40654095e.png)  
-	- Next we devicded to split the data into 3 different csv files and sorted them by each year that the data was collected.  
-		- ![bank_data_08](https://user-images.githubusercontent.com/33468680/170159620-212f63d4-9780-4159-a165-c9bff2a914a6.png)
-		- ![bank_data_09](https://user-images.githubusercontent.com/33468680/170159671-691f5464-1754-43a2-ba73-370b85853a5c.png)
-		- ![bank_data_10](https://user-images.githubusercontent.com/33468680/170159703-209cd840-b011-4ad5-9744-4148ba6ce201.png)
-- AWS
-	- Created an account on AWS
-	- Created a database on RDS
-	- Connected RDS on AWS to PgAdmin4
-	- Gave permision to other to access database
+- Database Schema
+	- We created an ERD database to identify our primary key. And also give us an idea what would connect our databses for the inner join table.
+	- ![QuickDBD-export](https://user-images.githubusercontent.com/33468680/170830252-7aacdd63-4850-443c-9c52-3f17bd55a54c.png)     
+- Database stores static data:
+	- PgAdmin4
+		- We use PdAdmin4 to store our data   
+		- Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row.
+		- We started by creating bank_data table. With this table created we can start to load the csv file into the table.
+			- ![ban_data_table](https://user-images.githubusercontent.com/33468680/170159274-85ed5819-77e5-41b6-bf5f-e0f3b4240004.png)
+			- ![bank_data](https://user-images.githubusercontent.com/33468680/170831083-08e9e6d1-b2fd-4566-bd6e-084d2386250b.png)  
+		- We then created two more tables first being customer personal information and the second being the loan information and the bank account balances.  
+			- ![customer_info_table](https://user-images.githubusercontent.com/33468680/170159407-66e01606-938b-4f03-a7b5-3e26d0cb8a0e.png)  
+			- ![customer_info](https://user-images.githubusercontent.com/33468680/170831105-930b4926-942f-4721-b9f5-bf28af193fae.png)      
+			-  ![customer_loan_table](https://user-images.githubusercontent.com/33468680/170831182-98679045-3d4f-4652-be23-7bdc6fa0ce52.png)  
+			- ![customer_loan](https://user-images.githubusercontent.com/33468680/170831120-0b83eb61-6df6-4de1-a769-13221fc26869.png)     
+		- Next we created a table called customer_data. This is where we did the inner join of the data that only pretains to the customer.
+			- ![inner_join_table](https://user-images.githubusercontent.com/33468680/170831148-528eafbb-7b2b-4a0d-8114-a2de0349b62a.png)
+			- ![inner_join_data](https://user-images.githubusercontent.com/33468680/170831160-78ede24a-f095-4c43-9bf0-1eab4eaadc24.png)  
+	- AWS
+		- Created an account on AWS
+		- Created a database on RDS
+		- Connected RDS on AWS to PgAdmin4
+		- Gave permision to other to access database on PgAdmin4 through AWS
+- Database interfaces with the project / Connection string 
+	- ![image](https://user-images.githubusercontent.com/33468680/170830672-cb2dbceb-19b8-4a36-87f7-863364c2c8bd.png)
+
 ##### Machine Learning
 - Machine Learning Model   
 We are using a binary classification model to predict the outcome of the bank telemarketing campaign. We will look at multiple different models to evaluate what model gives us the most accuracy as well as a realistic running time. The data will be cleaned using a OneHotEncoder method so that we have entirely numerical data to work with.
+- In the folder "Trial and Error", there are multiple files that show we ran through different trials on different models to select the model that fit with our project.
+- The "final_model.ipynb" has the final model that we picked, how the data processing, and machine learning algorithm.  
 - Description of preliminary data preprocessing
 	- For the machine learning section we performed the data preprocessing in steps as follows:
 		1. look for and drop any null values
@@ -61,8 +72,10 @@ To split the data into training and testing sets we used the built in train_test
 For our model we wanted the highest precision possible over a high recall. Given that there is a limited amount of time in a day we want the highest percent chance that the person we call will be a subscriber. The Random Forest Classifier gives us almost the best precision while still keeping recall, accuracy, and model run time at an adequate level.
 	- Benefits: No feature scaling required.Random Forest works well with both categorical and continuous variables which our data has.
 	- Limitations: Random forests can be complex and harder to understand. Random Forest require much more time to train as compared to decision trees
+- In the "Model.csv", there are confusion tables with results to use for comparing the differences to pick out the most fit model.
 ##### Dashboard
 - Tableau storyboard
+	- https://public.tableau.com/app/profile/paul.erickson/viz/Final_Project_Group_3/SuccessPie?publish=yes 
 - Tools
 	- Web Connector
 		- Using web connector to pull the data

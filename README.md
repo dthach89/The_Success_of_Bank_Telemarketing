@@ -80,14 +80,16 @@ For our model we wanted the highest precision possible over a high recall. Given
 - Tableau storyboard
 	- https://public.tableau.com/app/profile/paul.erickson/viz/Final_Project_Group_3/SuccessPie?publish=yes 
 - Tools
-	- Web Connector
-		- Using web connector to pull the data
-		- Connecting data to Tableau
 	- Tableau
 		- Create storylines
 		- Using Tableau to display the analysis
 		- Showing important features 
 		- Showing results from machine learning
+	- Jupyter Notebook
+	- Pyhon
+	- Excel 
 - Interactive elements
 	-  Dropdown or select filters on Tableau
+- The dashboard visualization will include a chart for each year there was data collected, a chart to represent the totals by day of the week, a chart for the overall success, based on filter configuration, and several filter options including type of contact, housing loan status, personal loan status, credit default status, marital status, education level and job type. The filters are interactive and will update the charts appropriately.
+ 
 

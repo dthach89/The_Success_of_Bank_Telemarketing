@@ -86,7 +86,7 @@ For our model we wanted the highest precision possible over a high recall. Given
 		- Showing important features 
 		- Showing results from machine learning
 	- Jupyter Notebook
-	- Pyhon
+	- Python
 	- Excel 
 - Interactive elements
 	-  Dropdown or select filters on Tableau

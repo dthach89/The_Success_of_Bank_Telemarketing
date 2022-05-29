@@ -28,7 +28,7 @@ https://docs.google.com/presentation/d/1fCTdK4WLqB_CS2L9hynQPrdZWSWE_nL8I1XASwRx
 	- ![QuickDBD-export](https://user-images.githubusercontent.com/33468680/170830252-7aacdd63-4850-443c-9c52-3f17bd55a54c.png)     
 - Database stores static data:
 	- PgAdmin4
-		- We use PdAdmin4 to store our data   
+		- We use PgAdmin4 to store our data   
 		- Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row.
 		- We started by creating bank_data table. With this table created we can start to load the csv file into the table.
 			- ![ban_data_table](https://user-images.githubusercontent.com/33468680/170159274-85ed5819-77e5-41b6-bf5f-e0f3b4240004.png)

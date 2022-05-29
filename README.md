@@ -45,7 +45,7 @@ https://docs.google.com/presentation/d/1fCTdK4WLqB_CS2L9hynQPrdZWSWE_nL8I1XASwRx
 		- Created an account on AWS
 		- Created a database on RDS
 		- Connected RDS on AWS to PgAdmin4
-		- Gave permision to other to access database on PgAdmin4 through AWS
+		- Gave permission to other to access database on PgAdmin4 through AWS
 - Database interfaces with the project / Connection string 
 	- ![image](https://user-images.githubusercontent.com/33468680/170830672-cb2dbceb-19b8-4a36-87f7-863364c2c8bd.png)
 

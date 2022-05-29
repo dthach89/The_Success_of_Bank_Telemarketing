@@ -11,7 +11,7 @@ By the end of this segment, there are great strides in building the different pi
 	- creating tables to populate the data with csv files
 	- creating account with AWS
 	- Connecting PgAdmin4 to AWS
-	- Using RDS on AWS to upload and retrieve datas
+	- Using RDS on AWS to upload and retrieve data
 - Machine Learning
 	- Pulling the data from RDS on AWS that connected to PgAdmin4
 	- Perform the algorithm to predict the outcomes 

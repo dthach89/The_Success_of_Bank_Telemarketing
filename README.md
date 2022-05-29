@@ -10,7 +10,7 @@ By the end of this segment, there are great strides in building the different pi
 	- A database is created with PgAdmin4
 	- creating tables to populate the data with csv files
 	- creating account with AWS
-	- Connecting PdAdmin4 to AWS
+	- Connecting PgAdmin4 to AWS
 	- Using RDS on AWS to upload and retrieve datas
 - Machine Learning
 	- Pulling the data from RDS on AWS that connected to PgAdmin4

@@ -2,11 +2,13 @@
 
 Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row. 
 
-We started by creating bank_data table. With this table created we can start to load the csv file into the table. 
+![CODE1](Images/original_bank_table.png)
+
+![CODE1](Images/original_bank_data.png)
+
+We started by creating bank_data table. With this table created we can start to load the csv file into the table. We had to bring back the Index row mostly as this will be used as Primary Key for our tables. 
 
 ![CODE1](Images/bank_data_table.png)
-
-
 
 We then created two more tables first being customer personal information and the second being the loan information and the bank account balances. 
 

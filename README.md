@@ -67,7 +67,7 @@ For our model we wanted the highest precision possible over a high recall. Given
 - In the "Resources/Model.csv", there are "trail and error" tables with results to use for comparing the differences to pick out the most fit model.
 ##### Dashboard
 - Tableau storyboard
-	- https://public.tableau.com/app/profile/paul.erickson/viz/Final_Project_Group_3/SuccessPie?publish=yes 
+	- https://public.tableau.com/app/profile/paul.erickson/viz/Final_Project_Group_3/Dashboard-Filters
 - Tools
 	- Tableau
 		- Create storylines

@@ -1,31 +1,21 @@
 # The Success of Bank Telemarketing
-## Second Segment
+## Third Segment
 ### Overview
-In this segment, building the separate pieces that will make the project great—and also start putting them together! Selecting data and started exploring it for analysis. Also, prepareing a mockup of a machine learning model and fabricated a database in anticipation of the next step. This is an exciting segment because starting to really see how the works are going to come together.
+In the third segment, the team will begin to really tie things together. At this point, the machine learning model and database should be plugged in to the rest of the project, and seeing results. Whether answered the question that set out to answer, explored the topic exhaustively, or even realized that there are even questions to answer.
 ### Purpose
-By the end of this segment, there are great strides in building the different pieces of the project. The analysis is coming along nicely, work on the machine learning model has commenced, and the database will be transitioned into an operational, data-holding tool.
-### Result
-#### Communication Protocols
-- Database
-	- A database is created with PgAdmin4
-	- creating tables to populate the data with csv files
-	- creating account with AWS
-	- Connecting PgAdmin4 to AWS
-	- Using RDS on AWS to upload and retrieve data
-- Machine Learning
-	- Pulling the data from RDS on AWS that connected to PgAdmin4
-	- Perform the algorithm to predict the outcomes 
-- Dashboard
-	- Pulling the data from AWS to make visulization
-	- Displaying outcomes from machine learning and showing features on Tableau 	
+During this segment, all of the individual pieces that have been building will come together. Once assembled these pieces, then start putting the final touches on the repository. Does the README.md fully describe the project and its purpose? Is the repository ready to be added to your portfolio? Details like these are part of "plugging it in" because each piece is vital to the final presentation.
+### Result 	
 #### Presentation Outlines
 https://docs.google.com/presentation/d/1fCTdK4WLqB_CS2L9hynQPrdZWSWE_nL8I1XASwRxQaQ/edit?usp=sharing  
 
 #### Project Outlines
+##### Project Overview
+![overallProject](https://user-images.githubusercontent.com/33468680/172031368-338bc540-5fe7-43d6-aa48-e6afbcfaccb4.png)
 ##### Database
 - Database Schema
 	- We created an ERD database to identify our primary key. And also give us an idea what would connect our databses for the inner join table.
-	- ![QuickDBD-export](https://user-images.githubusercontent.com/33468680/170830252-7aacdd63-4850-443c-9c52-3f17bd55a54c.png)     
+	- ![QuickDBD-export](https://user-images.githubusercontent.com/33468680/172031128-7b083741-b011-408d-9fce-d9d065f898d4.png)
+
 - Database stores static data:
 	- PgAdmin4
 		- We use PgAdmin4 to store our data   
@@ -34,10 +24,9 @@ https://docs.google.com/presentation/d/1fCTdK4WLqB_CS2L9hynQPrdZWSWE_nL8I1XASwRx
 			- ![ban_data_table](https://user-images.githubusercontent.com/33468680/170159274-85ed5819-77e5-41b6-bf5f-e0f3b4240004.png)
 			- ![bank_data](https://user-images.githubusercontent.com/33468680/170831083-08e9e6d1-b2fd-4566-bd6e-084d2386250b.png)  
 		- We then created two more tables first being customer personal information and the second being the loan information and the bank account balances.  
-			- ![customer_info_table](https://user-images.githubusercontent.com/33468680/170159407-66e01606-938b-4f03-a7b5-3e26d0cb8a0e.png)  
-			- ![customer_info](https://user-images.githubusercontent.com/33468680/170831105-930b4926-942f-4721-b9f5-bf28af193fae.png)      
-			-  ![customer_loan_table](https://user-images.githubusercontent.com/33468680/170831182-98679045-3d4f-4652-be23-7bdc6fa0ce52.png)  
-			- ![customer_loan](https://user-images.githubusercontent.com/33468680/170831120-0b83eb61-6df6-4de1-a769-13221fc26869.png)     
+			- ![customer_loan_table](https://user-images.githubusercontent.com/33468680/172031204-26fbb41c-6f8b-4d08-b32a-0dc69fa0da57.png)  
+			- ![customer_loan](https://user-images.githubusercontent.com/33468680/172031211-2bc934a2-1fed-4130-81ab-c081f92ea048.png)  
+			- ![customer_info](https://user-images.githubusercontent.com/33468680/172031216-8d1dff03-dd44-4c4e-8d2b-ed7a0a33e446.png)  
 		- Next we created a table called customer_data. This is where we did the inner join of the data that only pretains to the customer.
 			- ![inner_join_table](https://user-images.githubusercontent.com/33468680/170831148-528eafbb-7b2b-4a0d-8114-a2de0349b62a.png)
 			- ![inner_join_data](https://user-images.githubusercontent.com/33468680/170831160-78ede24a-f095-4c43-9bf0-1eab4eaadc24.png)  
@@ -84,9 +73,7 @@ For our model we wanted the highest precision possible over a high recall. Given
 		- Create storylines
 		- Using Tableau to display the analysis
 		- Showing important features 
-		- Showing results from machine learning
-	- Jupyter Notebook
-	- Python
+		- Showing results from machine learning	
 	- Excel 
 - Interactive elements
 	-  Dropdown or select filters on Tableau

@@ -18,3 +18,7 @@ The charts dashboard includes an overall for chart for each year(2008, 2009, & 2
 
 #### Filters
 The filters dashbaord includes each option, itemized, with a percent indicator to display relevance to outcome.
+
+
+### Story
+The story includes information about our machine learning trial and error, several confusion matrix, our final model with confusion matrix, a slide of the charts dashbord and a slide of the filter dashboard.

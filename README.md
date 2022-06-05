@@ -18,15 +18,18 @@ https://docs.google.com/presentation/d/1fCTdK4WLqB_CS2L9hynQPrdZWSWE_nL8I1XASwRx
 
 - Database stores static data:
 	- PgAdmin4
-		- We use PgAdmin4 to store our data   
-		- Cleaned data for PGAdmin ready to start creating tables. Removed index row, removed quotations from each row.
+		- We use PgAdmin4 to store our data
+		- We created a table with the original data
+			- ![original_bank_table](https://user-images.githubusercontent.com/33468680/172064803-59615ccf-44a4-4ef9-94a2-b87cbeb964d9.png)
+			- ![original_bank_data](https://user-images.githubusercontent.com/33468680/172064821-3424b8e2-1dc7-4af6-b06f-9c74d2ef76e4.png)  
 		- We started by creating bank_data table. With this table created we can start to load the csv file into the table.
 			- ![ban_data_table](https://user-images.githubusercontent.com/33468680/170159274-85ed5819-77e5-41b6-bf5f-e0f3b4240004.png)
 			- ![bank_data](https://user-images.githubusercontent.com/33468680/170831083-08e9e6d1-b2fd-4566-bd6e-084d2386250b.png)  
 		- We then created two more tables first being customer personal information and the second being the loan information and the bank account balances.  
 			- ![customer_loan_table](https://user-images.githubusercontent.com/33468680/172031204-26fbb41c-6f8b-4d08-b32a-0dc69fa0da57.png)  
 			- ![customer_loan](https://user-images.githubusercontent.com/33468680/172031211-2bc934a2-1fed-4130-81ab-c081f92ea048.png)  
-			- ![customer_info](https://user-images.githubusercontent.com/33468680/172031216-8d1dff03-dd44-4c4e-8d2b-ed7a0a33e446.png)  
+			- ![customer_info](https://user-images.githubusercontent.com/33468680/172031216-8d1dff03-dd44-4c4e-8d2b-ed7a0a33e446.png)
+			- ![customer_info_db](https://user-images.githubusercontent.com/33468680/172064628-8e101945-de47-4978-bcf8-43fe00dd2895.png)  
 		- Next we created a table called customer_data. This is where we did the inner join of the data that only pretains to the customer.
 			- ![inner_join_table](https://user-images.githubusercontent.com/33468680/170831148-528eafbb-7b2b-4a0d-8114-a2de0349b62a.png)
 			- ![inner_join_data](https://user-images.githubusercontent.com/33468680/170831160-78ede24a-f095-4c43-9bf0-1eab4eaadc24.png)  
@@ -73,8 +76,7 @@ For our model we wanted the highest precision possible over a high recall. Given
 		- Create storylines
 		- Using Tableau to display the analysis
 		- Showing important features 
-		- Showing results from machine learning	
-	- Excel 
+		- Showing results from machine learning	 
 - Interactive elements
 	-  Dropdown or select filters on Tableau
 - The dashboard visualization will include a chart for each year there was data collected, a chart to represent the totals by day of the week, a chart for the overall success, based on filter configuration, and several filter options including type of contact, housing loan status, personal loan status, credit default status, marital status, education level and job type. The filters are interactive and will update the charts appropriately.

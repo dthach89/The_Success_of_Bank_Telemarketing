@@ -36,6 +36,6 @@ Next we created a table called customer_data. This is where we did the inner joi
 ![CODE1](Images/inner_join_table.png)
 
 
-We linked all of our data using amazon RDS. The reason behind using RDS was to make it easier for rest of the team to be able to access all the data tables that were created in the PgAdmin. We have looked at different options but RDS seemd more user friendly and it gave everyone a chance to get more practice with it. 
+We linked all of our data using amazon RDS. The reason behind using RDS was to make it easier for rest of the team to be able to access all the data tables that were created in the PgAdmin. We have looked at different options but RDS seemd more user friendly and it gave everyone a chance to get more practice with it. Some of the changes that were made in the data were that Michael converted varchar's to boolians in order for the data to be more successful for the machine learning part of the project. 
 
 

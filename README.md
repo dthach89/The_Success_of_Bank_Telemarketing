@@ -22,3 +22,7 @@ The filters dashbaord includes each option, itemized, with a percent indicator t
 
 ### Story
 The story includes information about our machine learning trial and error, several confusion matrix, our final model with confusion matrix, a slide of the charts dashbord and a slide of the filter dashboard.
+
+
+### Summary
+This project gavve me the opportunity to explore Tableau Public and really get an understanding of the limitations when compared to desktop or server versions.

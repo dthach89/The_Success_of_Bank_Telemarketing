@@ -17,7 +17,7 @@ There are so many options that we decided to use a dashboard for filters and one
 The charts dashboard includes an overall for chart for each year(2008, 2009, & 2010), An Overall Success Pie Chart, and a bar chart for success based on day of the week.
 
 #### Filters
-The filters dashbaord includes each option, itemized, with a percent indicator to display relevance to outcome.
+The filters dashbaord includes each option, itemized, with a percent indicator to display relevance to outcome.  
 
 
 ### Story

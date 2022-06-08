@@ -25,4 +25,4 @@ The story includes information about our machine learning trial and error, sever
 
 
 ### Summary
-This project gavve me the opportunity to explore Tableau Public and really get an understanding of the limitations when compared to desktop or server versions.
+This project gavve me the opportunity to explore Tableau Public and really get an understanding of the limitations when compared to desktop or server versions. I was somewhat disappointed that the focus of gthe final project was machine learning.

@@ -1,9 +1,13 @@
 # The Success of Bank Telemarketing
-## Third Segment
+## Fourth Segment
 ### Overview
-In the third segment, the team will begin to really tie things together. At this point, the machine learning model and database should be plugged in to the rest of the project, and seeing results. Whether answered the question that set out to answer, explored the topic exhaustively, or even realized that there are even questions to answer.
+In this segment, completing the last of the preparations before presenting. Highlight some tricky code that may have used! Show off a unique visualization. Talk through approach and definitely flex the knowledge.
 ### Purpose
-During this segment, all of the individual pieces that have been building will come together. Once assembled these pieces, then start putting the final touches on the repository. Does the README.md fully describe the project and its purpose? Is the repository ready to be added to your portfolio? Details like these are part of "plugging it in" because each piece is vital to the final presentation.
+- Team: Practice presenting your portion of the presentation. Tie up any loose ends related to the project (analysis, machine learning, dashboard, etc.).  
+- Square: Final updates to the README.md on the project repository (make sure there is a description of the project, explain why this topic was chosen, include images from the analysis, and the conclusion)—make the repository portfolio-ready.    
+- Circle: Ensure all applicable PRs are merged in (includes finishing up peer reviews and merging branches). Conduct final editorial review (clean up code to meet coding guidelines, check for typos, clarity, etc.).  
+- Triangle: Final touches on visual aspects with the presentation and dashboard. Make sure the images tell the story cleanly and clearly.  
+- X: Review the rubric and ensure the project meets the requirements, and test the code.  
 ### Result 	
 #### Presentation Outlines
 https://docs.google.com/presentation/d/1fCTdK4WLqB_CS2L9hynQPrdZWSWE_nL8I1XASwRxQaQ/edit?usp=sharing  
